@@ -1,0 +1,109 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, intial-scale">
+<style>
+{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.main{
+    max-width: 1000px;
+    margin:auto;
+}
+
+h1{
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row{
+    margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+
+.column{
+    float:left;
+    width: 25%;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.content{
+    background-color: currentColor;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+   .column {
+       width: 100%;
+    }
+}
+
+</style>
+</head>
+<body>
+
+<div class="main">
+
+<h1>MYLOGO.COM<h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="1.jpg" alt="clouds" style="width:100%">
+      <h3>My Work</h3>
+</div>
+</div>
+<div class="column">
+   <div class="content">
+    <img src="2.jpg" alt="way" style="width:100%">
+     <h3>My Work</h3>
+</div>
+</div>
+
+  <div class="column">
+    <div class="content">
+      <img src="3.jpg" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+</div>
+</div>
+
+  <div class="column">
+    <div class="content">
+      <img src="4.jpg" alt="gallery" style="width:100%">
+      <h3>My Work</h3>
+</div>
+</div>
+
+</div>
+
+   <div class="content">
+      <img src="5.jpg" alt="Moon" style="width:100%">
+      <h3>My Work</h3>
+</div>
